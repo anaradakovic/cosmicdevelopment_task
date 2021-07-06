@@ -1,0 +1,32 @@
+ 
+.list-reset {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html{
+  margin-bottom: 0;
+  width: 100%;
+}
+h4{
+  margin-bottom:0;
+}
+@media (min-width:320px) {
+.container{
+  padding-left: 0;
+  }
+.navbar>.container, .navbar>.container-fluid{
+  justify-content: normal;
+}
+.navbar{
+  padding: 0;
+}
+
+}
+.detailed{
+  display: none;
+}
+.noRes{
+    display: none;
+}
